@@ -1,0 +1,136 @@
+/* colors */
+.gradient-sky {
+  /*http://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28top\%2C\%20rgba\%280\%2C0\%2C0\%2C1\%29\%200\%25\%2C\%20rgba\%283\%2C65\%2C140\%2C1\%29\%2056\%25\%2C\%20rgba\%2822\%2C112\%2C181\%2C1\%29\%2076\%25\%2C\%20rgba\%2889\%2C112\%2C145\%2C1\%29\%2086\%25\%2C\%20rgba\%2889\%2C112\%2C145\%2C1\%29\%2087\%25\%2C\%20rgba\%28250\%2C179\%2C0\%2C1\%29\%2094\%25\%2C\%20rgba\%28245\%2C105\%2C12\%2C1\%29\%2097\%25\%2C\%20rgba\%28250\%2C50\%2C0\%2C1\%29\%20100\%25\%29\%3B'*/
+  background: #000000;
+  background: -moz-linear-gradient(top, #000000 0%, #03418c 56%, #1670b5 76%, #597091 86%, #597091 87%, #fa4f00 98%, #fa3200 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #000000), color-stop(56%, #03418c), color-stop(76%, #1670b5), color-stop(86%, #597091), color-stop(87%, #597091), color-stop(98%, #fa4f00), color-stop(100%, #fa3200));
+  background: -webkit-linear-gradient(top, #000000 0%, #03418c 56%, #1670b5 76%, #597091 86%, #597091 87%, #fa4f00 98%, #fa3200 100%);
+  background: -o-linear-gradient(top, #000000 0%, #03418c 56%, #1670b5 76%, #597091 86%, #597091 87%, #fa4f00 98%, #fa3200 100%);
+  background: -ms-linear-gradient(top, #000000 0%, #03418c 56%, #1670b5 76%, #597091 86%, #597091 87%, #fa4f00 98%, #fa3200 100%);
+  background: linear-gradient(to bottom, #000000 0%, #03418c 56%, #1670b5 76%, #597091 86%, #597091 87%, #fa4f00 98%, #fa3200 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#fa3200', GradientType=0);
+}
+/* variables */
+/* commons */
+/* reset */
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+html {
+  font-family: sans-serif;
+}
+img,
+canvas {
+  height: auto;
+  display: block;
+  border: 0;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  font-style: normal;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+/* form */
+fieldset {
+  border: 0;
+}
+label {
+  cursor: pointer;
+}
+.clear_both {
+  clear: both;
+}
+.clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+input::-ms-clear {
+  display: none;
+}
+.clearfix:after {
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  content: " ";
+}
+/*input{left:-9999px; position: absolute; outline: none;}*/
+/* methods */
+/*@font-face{.fontface(GothamBold);}*/
+.filter {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/hIEfix.png,sizingMethod=crop);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/hIEfix.png,sizingMethod=crop)';
+}
+.box-sizing {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.backface-visibility {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.middle-parent {
+  height: 100%;
+  font-size: 0;
+}
+.middle-parent .middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+.middle-parent:before {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+}
+.pie {
+  behavior: url(vendors/css3pie/PIE.htc);
+}
+/*# sourceMappingURL=util.css.map */
