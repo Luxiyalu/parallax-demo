@@ -1,1 +1,16 @@
-../package.json
+{
+  "name": "parallax-demo",
+  "version": "2.0.0",
+  "description": "Demo for Parallax package",
+  "main": "dev/scripts/main.js",
+  "repository": "https://github.com/Luxiyalu/parallax-demo",
+  "author": "Lucia Lu <doitelu@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "latest",
+    "requirejs": "latest",
+    "gsap": "latest",
+    "gsap-parallax": "latest"
+  }
+}
